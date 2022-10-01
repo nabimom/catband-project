@@ -1,0 +1,7 @@
+span._menulink {font-size:13px;line-height:1.5;font-weight:bold;font-family:'留묒� 怨좊뵓','Malgun Gothic',Helvetica,'AppleSDGothicNeo','�뗭�',dotum,Tahoma,sans-serif;letter-spacing:-1px;}
+span._menulink.midtop {font-size:1.3em;}
+span._menulink.lefttit {font-size:1.6em;}
+
+.leftmenulinkdiv a {color:#333;text-decoration:none;}
+.leftmenulinkdiv a:hover {color:#FF8040;}
+.leftmenulinkdiv img{display:block; float:left; padding:4px 0 0 10px; margin-right:-5px}

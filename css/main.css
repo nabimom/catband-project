@@ -1,0 +1,90 @@
+@charset "euc-kr";
+
+
+.main_visual {width: 100%; height:550px; margin: 0; }
+.main_visual  .main_visual_banner .mvb01{position:fixed; top:320px; left:50px; z-index:100 }
+.main_visual  .main_visual_banner .mvb02{position:fixed; top:500px; left:75px; z-index:100 }
+.main_visual  .main_visual_banner .mvb03{position:fixed; top:500px; left:225px; z-index:100 }
+.main_cont_slide_ban { margin-top: 100px; }
+
+
+.main_visual .main_visual_neon .mvn01{ position:fixed; top:208px; left:145px;  z-index:11  }
+.main_visual .main_visual_neon .mvn_marquee { color:#fff; font-size:18px; font-weight:bold; position:fixed; top:240px; left:155px;  z-index:11; border:0 red solid; width:750px; overflow:hidden; }
+.main_visual .main_visual_neon .mvn_bg{ position:fixed; top:180px; left:50px;  z-index:10  }
+.blinking{ -webkit-animation:blink 1.5s ease-in-out infinite alternate; -moz-animation:blink 1.5s ease-in-out infinite alternate; animation:blink 1.5s ease-in-out infinite alternate; } 
+@-webkit-keyframes blink{ 
+	0% {opacity:1;} 
+	100% {opacity:0.5;} 
+} 
+@-moz-keyframes blink{
+	0% {opacity:1;} 
+	50% {opacity:0.8;} 
+	100% {opacity:1;} 
+} 
+@keyframes blink{ 
+	0% {opacity:1;} 
+	50% {opacity:0.8;} 
+	100% {opacity:1;} 
+}
+
+
+.msc_main_fixwrap { display: block; width: 1200px; margin: 0 auto; }
+.msc_main_widewrap { display: block; width: 100%; margin: 0 auto; }
+.msc_m_t_100 { margin-top: 100px; }
+.msc_m_b_100 { margin-bottom: 100px; }
+
+
+/*메인비쥬얼롤링*/
+.v_mid {position:relative; width:100%; height:559px; float:left; }
+#v_simg {width:100%; overflow:hidden;  }
+#v_simg li {float:left; width:100%; border:0 red solid;}
+#v_simg li img {width:100%; height:559px; }
+#v_sbtn {position:absolute; bottom:20px; right:0; cursor:pointer; }
+#v_sbtn li {float:left; margin-left:5px; z-index:2000; width:30px; height:30px; background:url(http://www.theclass7.com/_prozn/_skin_os/_image/home/7_slide/slide_btn.png) no-repeat; list-style:none; }
+#v_sbtn li.usl-current-parent { background-position:0 -10px; }
+#v_sbtn a { width:50px; height:50px; display:block;}
+.v_prev{position:absolute; top:255px; left:30px;  list-style:none;}
+.v_next{position:absolute; top:255px; right:30px; }
+
+/*마우스 올릴때 view more*/
+
+.pic {
+	position: relative;
+	width: 245px;
+	height: 214px;
+	transition: 0.5s ease; 
+	overflow: hidden;
+  }
+  
+
+  .pic img {
+	width: 100%;
+	height: 100%;
+  }
+  
+  .pic:hover img {
+	opacity: 0.9;
+	transition: 1s ease;
+	scale: 1.5;
+  }
+  
+  .gotext {
+	position: absolute;
+	visibility: hidden;
+	top: 0;
+	left: 0;
+	text-align: center;
+	line-height: 214px;
+
+	font-size: 20px;
+  }
+  
+  .pic:hover .gotext{
+	  visibility: visible;
+	  background-color: black;
+	  opacity: 0.6;
+	  color: white;
+	  width: 100%;
+	  height:100%;
+  }
+ 

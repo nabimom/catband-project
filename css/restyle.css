@@ -1,0 +1,39 @@
+#footer * {
+    box-sizing: initial;
+    -o-box-sizing: initial;
+    -ms-box-sizing: initial;
+    -moz-box-sizing: initial;
+    -webkit-box-sizing: initial;
+}
+
+.__dn {display:none !important;}
+
+input[type='button'], 
+input[type='submit'],
+input[type="radio"],
+select {vertical-align:middle;}
+
+input[type="radio"] {width:18px;height:18px;}
+
+.ginfo_price span.lt_price {text-decoration: line-through;color: #999;}
+a.abtn {background-color: #666;font-size: .90em;color: #fff;padding: 2px 4px;border-radius: 3px;}
+
+.shop_view .gview_title .title p.gname {font-size: 1.5em;font-weight:bold;}
+
+.c_center {width:980px !important;}
+
+.shop_list .catelist_l li.first_ca, 
+.shop_view .catelist_l li.first_ca, 
+.catelist_l .sub_ca ul li p.ca a,
+.shop_list .catelist_l li, .shop_view .catelist_l li {font-size: 12px;}
+
+.foot_list ul {width: 800px !important;border:0px solid;}
+
+/* 타이틀바*/
+.titlebar p.title { font-size: 28px;margin: 0 0 20px 0;}
+.titlebar {height: 70px;line-height: 70px;border-bottom: 1px solid #999;}
+.titlebar p {line-height: 70px;}
+
+._mf_member button {background-color:#000;color:#fff;}
+
+p.sale_icon {display:none;}

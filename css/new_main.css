@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+/*reset*/
+#skipnavigation,hr,.skip, legend,caption {position:absolute; left:-999px; font-size:1px; width:0; height:0; line-height:0; overflow:hidden; visibility:hidden;}
+body,div,ul,li,h1,h2,h3,h4,h5,h6,address,p,img,span,hr,a,form,fieldset,dl,dt,dd,table,thead,tbody,th,td,tr,input {margin:0; padding:0; list-style:none;}
+
+
+/*???? �?�? ??�???*/
+#new_top {width:1920px; margin:0 auto; }
+#top_logo {position:relative; overflow:hidden; height:90px; margin:35px 0 0px 0px;
+/* width:950px; */
+}
+#top_logo p {
+/* float:left; */
+/* margin-bottom: 50px; */
+/* padding-bottom:50px; */
+text-align: center;
+
+}
+#top_logo .right_s_menu {position:absolute; overflow:hidden;  right:-10px;}
+
+#top_menu { height:60px; position:relative;}
+#top_menu .menu {width:100%; margin-left: 500px; height:60px; }
+#top_menu .menu li {float:left; width:160px; text-align:center; margin-top:10px; }
+#top_menu .menu a {color:#333 !important; text-decoration:none; font-size:16px;  margin-left:0; -webkit-margin-start :17px; } 
+#top_menu .menu li > a.active{ z-index: 2; color:#c03629;}
+
+
+/*본문*/
+#container {
+
+width:1920px; 
+position:relative;
+overflow:hidden;
+text-align: center;
+}
+#container .s_q_menu {
+/* width:950px; */
+padding-top:10px;
+position:relative;
+overflow:hidden;
+display: inline-block;
+;}
+#container .s_q_menu li {width:182px; float:left; margin-left:52px;}
+#container .s_q_menu ul li:nth-child(1) {margin-left:0px;}
+
+.s_q_menu2 {margin-top:20px;}
+.s_q_menu2 ul {}
+.s_q_menu2 ul li {float:left;margin-left:7px; }
+.s_q_menu2 ul li:first-child{margin-left:0}
+
+
+
+.product {
+position:relative; 
+overflow:hidden;
+/* width:950px; */
+padding-top:50px;
+display: inline-block;
+}
+.product p {padding-bottom:20px;}
+.product ul li {margin-left:32px; float:left; margin-bottom: 15px;}
+.p_txt p {left:50px; width:229px; text-align:center; line-height:0px; font-family:Nanum Gothic;}
+.p_txt p  a:link {color:#333 !important; text-decoration:none} 
+.p_txt p  a:visited {color:#333 !important; text-decoration:none} 
+.p_txt p  a:active {color:#333 !important;}
+.p_txt p  a:hover {color:#333 !important; text-decoration:none} 
+.p_txt span {display:block;}
+.p_txt .tle {font-size:18px; color:#333; font-weight:bold; line-height:24px;}
+.p_txt .size {font-size:10.5px; color:#aaa; font-weight:lighter; padding-bottom:5px; border-bottom:1px solid #ddd;}
+.p_txt .sell {font-size:14px; color:#666; line-height:16px;}
+.p_txt .price {font-size:18px; color:#F33; font-weight:bold;}
+
+.stone_b4 {position:relative; overflow:hidden; width:950px; padding:50px 0 20px 0;}
+.stone_b4 p {float:left;}
+.stone_b4 p img {width:698px;}
+.stone_b4 ul li img {width:251px;}
+
+.company {
+position:relative; 
+overflow:hidden;
+padding-top:50px;
+display: inline-block;
+}
+.company p {margin-left:200px; padding-bottom:20px;}
+

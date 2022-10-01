@@ -1,0 +1,44 @@
+#mask {  
+    position:fixed;  
+    z-index:9000;  
+    background:url("https://www.dolchimdae.com/_prozn/_skin_os/_image/pop/bg_modal2.png");
+    display:none;  
+    left:0;
+    top:0;
+	
+} 
+.layer_popup{
+	position:fixed;  
+	 z-index:9000;  
+	 background:url("https://www.dolchimdae.com/_prozn/_skin_os/_image/pop/bg_modal2.png");
+	 top:0;
+	width:100%;
+	height:100vh;
+    border:0 red solid; 
+ }
+.layer_popup .close { position:absolute;  top:10px; right:10px;}
+.layer_popup .closeset { position:absolute; font-size:12px; letter-spacing:-1px; color:#fff; overflow:hidden; height:28px; padding:10px 40px 0 15px; top:10px; right:10px; border-radius:50px; background-color:#46342a;}
+.layer_popup .closeset li {float:left;padding-right:5px;}
+.layer_popup .closeset li input{width:100%;height:15px;padding:0;border:0;color:#8f8f91; line-height:15px;}
+input[type="checkbox"]{
+        display: none;
+      }
+input[type="checkbox"] + label{
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border:1px solid #707070;
+		background-color:#fff;
+        position: relative;
+      }
+input[id="pop_today"]:checked + label::after{
+        content:'✔';
+        font-size: 13px;
+        width: 15px;
+        height: 15px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:-2px;
+		color:#000;
+      }

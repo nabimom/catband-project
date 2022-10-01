@@ -1,0 +1,277 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>catband</title>
+    <meta name="naver-site-verification" content="eeb249586762f4b887b2336a4111076963bd3ef5"/>
+	<meta name="generator" content="editplus" />
+    <meta name="author" content="고양이연대" />
+    <meta name="description" content="집고양이,길고양이,코리안숏헤어,페르시안숏헤어,스코티쉬폴드,고양이연대" />
+    <meta name="keywords" content="집고양이,길고양이,코리안숏헤어,페르시안숏헤어,스코티쉬폴드,고양이연대" />
+    <meta http-equiv=imagetoolbar content=no />
+
+	<meta property="og:type" content="website" /> 
+	<meta property="og:title" content="고양이연대" /> 
+	<meta property="og:site_name" content="고양이연대" /> 
+	<meta property="og:url" content="https://www.gudlejang.com/" /> 
+    <!--
+    <link rel="stylesheet" type="text/css" href="css/common1.css" />
+    <link rel="stylesheet" type="text/css" href="css/link.css" />
+    <link rel="stylesheet" type="text/css" href="css/skin.css" />
+    -->
+
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/main.css"  />
+    <link type="text/css" rel="stylesheet" href="css/new_main.css" /> 
+    <link type="text/css" rel="stylesheet" href="css/popup.css" />   
+
+
+    
+<!-- 롤링배너js -->
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery.ulslide.js"></script>
+<script src="js/jquery_slide.js"></script>
+
+<!-- 팝업 스크립트 -->
+
+<script language="Javascript" type="text/javascript">
+
+ function setCookie( name, value, expirehours ) {
+  var todayDate = new Date();
+  todayDate.setHours( todayDate.getHours() + expirehours );
+  document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";"
+ }
+ function closeWin() {
+  if(document.getElementById("pop_today").checked){
+   setCookie( "ncookie", "done" , 24 );
+  }
+  document.getElementById('layer_pop').style.display = "none";
+ }
+</script>
+
+<!--
+==============================
+** 팝업
+==============================
+-->
+<script language="Javascript" type="text/javascript">
+    <!--
+     function setCookie( name, value, expirehours ) {
+      var todayDate = new Date();
+      todayDate.setHours( todayDate.getHours() + expirehours );
+      document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";"
+     }
+     function closeWin() {
+      if(document.getElementById("pop_today").checked){
+       setCookie( "ncookie", "done" , 24 );
+      }
+      document.getElementById('layer_pop').style.display = "none";
+     }
+    -->
+    </script>
+<!--인트로 팝업-->
+<!--<script src="js/jquery.modal.min.js"></script>
+<script type="text/javascript">
+	$(function ($) {
+
+		$('.btn_searchpop').modal({
+			trigger: '.btn_searchpop',
+			olay: 'div.overlay',
+			modals: 'div.modal1',
+			animationEffect: 'fadeIn',
+			animationSpeed: 400,
+			moveModalSpeed: 'fast',
+			background: '222222',
+			opacity: 0.9,
+			openOnLoad: false,
+			docClose: true,
+			closeByEscape:true,
+			moveOnScroll: true,
+			resizeWindow: true,
+			close: '.closeBtn'
+		});
+	});
+</script>
+-->
+</head>  
+
+<body>
+    <style type="text/css">
+        #header .btn_kakao {position:fixed;bottom:60px;right:200px; width:115px; height:115px !important; margin-top:770px;z-index:100}
+        #header .btn_top {position:fixed;bottom:20px;right:20px; width:86px; height:86px !important; margin-top:86px;z-index:100}
+    </style>
+    <div id="header">
+        <div class="btn_kakao"><a href="https://www.youtube.com/channel/UC0kv4zE5V3uNDck7q9bcEvw" target="_blank"><img src="image/btn_kakao.png"></a></div>
+        <div class="btn_top"><a href="#"><img src="image/top.png"></a></div>
+    </div>   
+<div id="new_top">
+        <div id="top_logo">
+          <p><a href="http://www.myounggabed.com/"><img src="image/mg_logo.png"></a></p>
+        </div>
+
+
+    <div id="top_menu">
+        <ul class="menu">
+            <li><a href="home.html">home</a></li>
+                <li><a href="/_prozn/_system/hbuilder/list.php?pageid=361">고양이연대</a></li>
+                <li><a href="/_prozn/_system/hbuilder/list.php?pageid=362">아람이</a></li>
+                <li><a href="/_prozn/_system/hbuilder/list.php?pageid=363">세콤이</a></li>
+                <li><a href="/_prozn/_system/hbuilder/list.php?pageid=364">달콤이</a></li>
+                <li><a href="/_prozn/_system/hbuilder/list.php?pageid=365">고양이식당</a></li>
+        </ul>
+    </div>
+</div>        
+        <!--/*###################	로고,메뉴바 끝	 ######################################*/-->
+
+<!-- 인트로 팝업 -->
+<!--
+<div class="layer_popup" id="layer_pop" >
+	<div style="position:absolute; left:50%; top:200px; margin-left: -275px; width:550px; height:550px; z-index:10000;   ">
+		
+		<div><img src="image/pop_closed_notice.jpg" /></div>
+		<ul class="closeset">
+			<li> <input type="checkbox" name="pop_today" id="pop_today"><label for="pop_today"></label></li>
+			<li>오늘 하루 열지 않기</li>
+		</ul>
+		<p class="close pop"><a href="javascript:closeWin();"><img src="image/close.png"/></a></p>
+	
+	</div>
+</div>
+-->
+<!-- // 인트로 팝업 -->
+
+
+<div class="main_visual">
+    
+    <div class="v_mid">
+        <ul id="v_simg">
+            <li><img src="image/visual01.jpg" alt="" /></li>
+            <li><a href="/_prozn/_system/hbuilder/list.php?pageid=384" target="_blank"><img src="image/visual02.jpg" alt="" /></a></li> 
+            <li><a href="/_prozn/_system/hbuilder/list.php?pageid=384" target="_blank"><img src="image/visual03.jpg"  alt="" /></a></li> 				    
+        </ul>
+        <ul id="v_sbtn">
+            <li><a href="#1"></a></li>
+            <li><a href="#2"></a></li>
+            <li><a href="#3"></a></li>
+        </ul>
+            <a href="#" class="v_prev"><img src="image/slide_btn_prev.jpg" /></a>
+            <a href="#" class="v_next"><img src="image/slide_btn_next.jpg" /></a>
+    </div>
+    
+</div>
+
+<style type="text/css">
+    .sub_content {width:100%;padding:0;}
+    .main_goods_cont {text-align:center;}
+    .main_goods_cont img {width:1024px; margin-bottom:50px; }
+    .center_banner { background-color:#f4f4f4; text-align:center; margin-top:0; padding:80px 0; margin-bottom:60px; }
+    .main_mp4 { background-color:#f4f4f4; text-align:center; margin-top:0; padding-top:80px; margin-bottom:60px; }
+    .main_mp4 p {padding-bottom:40px;}
+    .main_mp4 ul {width:1180px; margin:0 auto; overflow:hidden; padding-bottom:80px;}
+    .main_mp4 ul li {float:left; width:373px; padding:0 10px;}
+    .main_mp4 ul li h4 {font-size:20px; text-align:center; font-weight:600; padding-bottom:5px;}
+    
+    .mc_width {width:1027px; margin:0 auto; text-align:center; }
+    .main_banlist {border:1px #e7e5e5 solid; border-radius: 35px; padding:42px;  }
+    .main_banlist ul {display:inline-block; overflow:hidden; }
+    .main_banlist ul li {float:left; padding:0 38px; border-left:1px #e7e5e5 solid; }
+    .main_banlist ul li:first-child {border-left:0; }
+    .main_best {margin-top:80px; margin-bottom:40px; }
+    .main_best .mb_title {font-size:28px; font-family: 'NanumSquare'; font-weight: 400; color:#000; padding-bottom:55px;}
+    .main_best .mb_title strong {font-weight: 800; }
+    .main_best .mb_list {display:inline-block; overflow:hidden;}
+    .main_best .mb_list li {float:left; padding-left:12px;}
+    .main_best .mb_list li:first-child {padding-left:0; }
+    .main_best .mb_list li .pic {position:relative; border:1px #e0e0e0 solid;}
+    .main_best .mb_list li .pic span {display:block; position:absolute; top:0; left:0; }
+    .main_best .mb_list li .txt01 {font-size:17px; font-family: 'NanumSquare'; font-weight: 700; color:#000; padding-top:10px;} 
+    .main_best .mb_list li .txt02 {font-size:17px; font-family: 'NanumSquare'; font-weight: 400; color:#969595;}
+    .main_best .mb_list li .txt03 {font-size:18px; font-family: "GmarketSansBold"; font-weight:bold; padding-top:10px;}
+
+    .main_banner {width:1180px; margin:0 auto; position:relative;}
+    .main_banner .mp4 {position:absolute; top:205px; left:620px;}
+    </style>
+
+ <!-- 구들장 BEST 상품 -->
+ <div class="mc_width main_best">
+    <p class="mb_title">고양이연대 <strong>family</strong></p>
+    <ul class="mb_list">
+        <li>
+            <a href="/_pzn/sys/shop/view.php?gid=16478417494300">
+            <div class="pic">
+                <img src="image/img_mainbest01.jpg">
+                   <div class="gotext">view more</div>
+            </div>
+            <p class="txt01">아람이</p>
+            <p class="txt02">서열1위 소심한 1인자</p>
+            <p class="txt03">제일 까다로운 입맛_넘사벽</p>
+            </a>
+        </li>
+        <li>
+            <a href="/_pzn/sys/shop/view.php?gid=16478430334500">
+            <div class="pic">
+                <img src="image/img_mainbest02.jpg">
+                  <div class="gotext">view more</div>
+            </div>
+            <p class="txt01">세콤이</p>
+            <p class="txt02">세침$ 도도 여자여자냥</p>
+            <p class="txt03">그런대로 잘 먹음</p>
+            </a>
+        </li>
+        <li>
+            <a href="/_pzn/sys/shop/view.php?gid=16496450671800">
+            <div class="pic">
+                <img src="image/img_mainbest03.jpg">
+                   <div class="gotext">view more</div>
+            </div>
+            <p class="txt01">달콤이</p>
+            <p class="txt02">유일한 청일점, my way 스타일</p>
+            <p class="txt03">아무거나 잘먹음</p>
+            </a>
+        </li>
+        <li>
+            <a href="/_pzn/sys/shop/view.php?gid=16478421594500">
+            <div class="pic">
+                <img src="image/img_mainbest04.jpg">
+                  <div class="gotext">view more</div>
+            </div>
+            <p class="txt01">고양이식당 손님들</p>
+            <p class="txt02">이 시대의 천사들</p>
+            <p class="txt03">가끔 오는 손님들! 자주 오세요</p>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="main_content">
+    <!-- 메인배너 -->
+    <div class="main_banner">
+        <a href="#"><img src="image/youtubebanner.jpg"></a>
+        <div class="mp4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/46GdCDh5I90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+</div>
+<style>
+    #info{
+        margin-left: 500px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+</style>
+<div id="info">
+<table>
+	<tr style="width:1920;" >
+		<td width="199" style="width:190px; padding-right:25px;"><img src="image/mg_logo.png" width="240" alt="" /></td>
+	<td style="padding:30 0;color:#454545;">
+	   
+	    상호 : 고양이연대 / 대표 : 이연주 / Email: <a href="mailto:babi770l@naver.com" id="gray">babi770@naver.com</a> / 블로그: <a href="https://blog.naver.com/babi770" target="_blank">blog.naver.com/babi770</a> <br> 
+	    All Copyright reserved 고양이연대(www.catband.com)<br>
+	    사전 승인 없이 고양이연대 사이트의 일체의 정보, 콘텐츠 및 UI등을 무단 이용할 수 없습니다        
+      </p>
+	 <!-- <p><a href="http://www.ftc.go.kr/info/bizinfo/communicationList.jsp" target="_blank">[사업자정보확인]</a></p>-->
+	  </td>
+    </tr>
+    
+</div>
+</body>
