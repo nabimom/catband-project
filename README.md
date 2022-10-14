@@ -1,1 +1,1 @@
-# catband-project
+# catband
