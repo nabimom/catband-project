@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dol</title>
+    <style>
+         *{
+            margin: 0 auto;
+        }
+        body{
+            width: 100%;
+        }
+        header{ position: absolute;
+                margin-left: 25%;
+        }
+    </style>
+    
+</head>
+<body>
+
+  <p style="text-align: center">
+    <img src="https://nabimom.github.io/catband-project/image/photo_event.jpg"><br>
+     <img src="https://nabimom.github.io/catband-project/image/official.gif"><br>
+    <img src="https://nabimom.github.io/catband-project/image/review.jpg"><br>
+    <img src="https://nabimom.github.io/catband-project/image/intro.jpg"><br>
+    <img src="https://nabimom.github.io/catband-project/image/product01.jpg"><br>
+    <img src="https://nabimom.github.io/catband-project/image/product02.jpg"><br>
+    <img src="https://nabimom.github.io/catband-project/image/delivery.jpg"><br>
+ </p>
+</body>
